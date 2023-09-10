@@ -1,0 +1,28 @@
+C:\Users\livek\OneDrive\Робочий стіл\lesson 13\lesson 13\obj\Debug\net6.0\lesson 13.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\livek\OneDrive\Робочий стіл\lesson 13\lesson 13\obj\Debug\net6.0\lesson 13.AssemblyInfoInputs.cache
+C:\Users\livek\OneDrive\Робочий стіл\lesson 13\lesson 13\obj\Debug\net6.0\lesson 13.AssemblyInfo.cs
+C:\Users\livek\OneDrive\Робочий стіл\lesson 13\lesson 13\obj\Debug\net6.0\lesson 13.csproj.CoreCompileInputs.cache
+C:\Users\livek\OneDrive\Робочий стіл\lesson 13\lesson 13\bin\Debug\net6.0\lesson 13.exe
+C:\Users\livek\OneDrive\Робочий стіл\lesson 13\lesson 13\bin\Debug\net6.0\lesson 13.deps.json
+C:\Users\livek\OneDrive\Робочий стіл\lesson 13\lesson 13\bin\Debug\net6.0\lesson 13.runtimeconfig.json
+C:\Users\livek\OneDrive\Робочий стіл\lesson 13\lesson 13\bin\Debug\net6.0\lesson 13.dll
+C:\Users\livek\OneDrive\Робочий стіл\lesson 13\lesson 13\bin\Debug\net6.0\lesson 13.pdb
+C:\Users\livek\OneDrive\Робочий стіл\lesson 13\lesson 13\obj\Debug\net6.0\lesson 13.dll
+C:\Users\livek\OneDrive\Робочий стіл\lesson 13\lesson 13\obj\Debug\net6.0\refint\lesson 13.dll
+C:\Users\livek\OneDrive\Робочий стіл\lesson 13\lesson 13\obj\Debug\net6.0\lesson 13.pdb
+C:\Users\livek\OneDrive\Робочий стіл\lesson 13\lesson 13\obj\Debug\net6.0\lesson 13.genruntimeconfig.cache
+C:\Users\livek\OneDrive\Робочий стіл\lesson 13\lesson 13\obj\Debug\net6.0\ref\lesson 13.dll
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\code-blog\lesson 13\lesson 13\bin\Debug\net6.0\Lesson 13.exe
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\code-blog\lesson 13\lesson 13\bin\Debug\net6.0\Lesson 13.deps.json
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\code-blog\lesson 13\lesson 13\bin\Debug\net6.0\Lesson 13.runtimeconfig.json
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\code-blog\lesson 13\lesson 13\bin\Debug\net6.0\Lesson 13.dll
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\code-blog\lesson 13\lesson 13\bin\Debug\net6.0\Lesson 13.pdb
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\code-blog\lesson 13\lesson 13\obj\Debug\net6.0\Lesson 13.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\code-blog\lesson 13\lesson 13\obj\Debug\net6.0\Lesson 13.AssemblyInfoInputs.cache
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\code-blog\lesson 13\lesson 13\obj\Debug\net6.0\Lesson 13.AssemblyInfo.cs
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\code-blog\lesson 13\lesson 13\obj\Debug\net6.0\Lesson 13.csproj.CoreCompileInputs.cache
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\code-blog\lesson 13\lesson 13\obj\Debug\net6.0\Lesson 13.dll
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\code-blog\lesson 13\lesson 13\obj\Debug\net6.0\refint\Lesson 13.dll
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\code-blog\lesson 13\lesson 13\obj\Debug\net6.0\Lesson 13.pdb
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\code-blog\lesson 13\lesson 13\obj\Debug\net6.0\Lesson 13.genruntimeconfig.cache
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\code-blog\lesson 13\lesson 13\obj\Debug\net6.0\ref\Lesson 13.dll

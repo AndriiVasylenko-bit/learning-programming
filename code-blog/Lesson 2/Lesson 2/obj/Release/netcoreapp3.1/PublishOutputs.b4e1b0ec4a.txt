@@ -1,0 +1,5 @@
+C:\Users\livek\Desktop\Lesson 2.exe
+C:\Users\livek\Desktop\Lesson 2.dll
+C:\Users\livek\Desktop\Lesson 2.deps.json
+C:\Users\livek\Desktop\Lesson 2.runtimeconfig.json
+C:\Users\livek\Desktop\Lesson 2.pdb

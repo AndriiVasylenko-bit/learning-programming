@@ -1,0 +1,17 @@
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\MDU\Lecture 3\Lecture 3\bin\Debug\net7.0\Lecture 3.exe
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\MDU\Lecture 3\Lecture 3\bin\Debug\net7.0\Lecture 3.deps.json
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\MDU\Lecture 3\Lecture 3\bin\Debug\net7.0\Lecture 3.runtimeconfig.json
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\MDU\Lecture 3\Lecture 3\bin\Debug\net7.0\Lecture 3.dll
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\MDU\Lecture 3\Lecture 3\bin\Debug\net7.0\Lecture 3.pdb
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\MDU\Lecture 3\Lecture 3\obj\Debug\net7.0\Lecture 3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\MDU\Lecture 3\Lecture 3\obj\Debug\net7.0\Lecture 3.AssemblyInfoInputs.cache
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\MDU\Lecture 3\Lecture 3\obj\Debug\net7.0\Lecture 3.AssemblyInfo.cs
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\MDU\Lecture 3\Lecture 3\obj\Debug\net7.0\Lecture 3.csproj.CoreCompileInputs.cache
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\MDU\Lecture 3\Lecture 3\obj\Debug\net7.0\Lecture 3.dll
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\MDU\Lecture 3\Lecture 3\obj\Debug\net7.0\refint\Lecture 3.dll
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\MDU\Lecture 3\Lecture 3\obj\Debug\net7.0\Lecture 3.pdb
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\MDU\Lecture 3\Lecture 3\obj\Debug\net7.0\Lecture 3.genruntimeconfig.cache
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\MDU\Lecture 3\Lecture 3\obj\Debug\net7.0\ref\Lecture 3.dll
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\MDU\Lecture 3\Lecture 3\obj\Debug\net7.0\Lecture 3.csproj.AssemblyReference.cache
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\MDU\Lecture 3\Lecture 3\bin\Debug\net7.0\Polly.dll
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\MDU\Lecture 3\Lecture 3\obj\Debug\net7.0\Lecture 3.csproj.CopyComplete

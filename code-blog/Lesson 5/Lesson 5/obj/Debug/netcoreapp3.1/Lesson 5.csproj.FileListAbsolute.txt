@@ -1,0 +1,52 @@
+D:\C#\Lesson 5\Lesson 5\bin\Debug\netcoreapp3.1\Lesson 5.exe
+D:\C#\Lesson 5\Lesson 5\bin\Debug\netcoreapp3.1\Lesson 5.deps.json
+D:\C#\Lesson 5\Lesson 5\bin\Debug\netcoreapp3.1\Lesson 5.runtimeconfig.json
+D:\C#\Lesson 5\Lesson 5\bin\Debug\netcoreapp3.1\Lesson 5.runtimeconfig.dev.json
+D:\C#\Lesson 5\Lesson 5\bin\Debug\netcoreapp3.1\Lesson 5.dll
+D:\C#\Lesson 5\Lesson 5\bin\Debug\netcoreapp3.1\Lesson 5.pdb
+D:\C#\Lesson 5\Lesson 5\obj\Debug\netcoreapp3.1\Lesson 5.csprojAssemblyReference.cache
+D:\C#\Lesson 5\Lesson 5\obj\Debug\netcoreapp3.1\Lesson 5.AssemblyInfoInputs.cache
+D:\C#\Lesson 5\Lesson 5\obj\Debug\netcoreapp3.1\Lesson 5.AssemblyInfo.cs
+D:\C#\Lesson 5\Lesson 5\obj\Debug\netcoreapp3.1\Lesson 5.csproj.CoreCompileInputs.cache
+D:\C#\Lesson 5\Lesson 5\obj\Debug\netcoreapp3.1\Lesson 5.dll
+D:\C#\Lesson 5\Lesson 5\obj\Debug\netcoreapp3.1\Lesson 5.pdb
+D:\C#\Lesson 5\Lesson 5\obj\Debug\netcoreapp3.1\Lesson 5.genruntimeconfig.cache
+D:\Programming\C#\Lesson 5\Lesson 5\bin\Debug\netcoreapp3.1\Lesson 5.exe
+D:\Programming\C#\Lesson 5\Lesson 5\bin\Debug\netcoreapp3.1\Lesson 5.deps.json
+D:\Programming\C#\Lesson 5\Lesson 5\bin\Debug\netcoreapp3.1\Lesson 5.runtimeconfig.json
+D:\Programming\C#\Lesson 5\Lesson 5\bin\Debug\netcoreapp3.1\Lesson 5.runtimeconfig.dev.json
+D:\Programming\C#\Lesson 5\Lesson 5\bin\Debug\netcoreapp3.1\Lesson 5.dll
+D:\Programming\C#\Lesson 5\Lesson 5\bin\Debug\netcoreapp3.1\Lesson 5.pdb
+D:\Programming\C#\Lesson 5\Lesson 5\obj\Debug\netcoreapp3.1\Lesson 5.csprojAssemblyReference.cache
+D:\Programming\C#\Lesson 5\Lesson 5\obj\Debug\netcoreapp3.1\Lesson 5.AssemblyInfoInputs.cache
+D:\Programming\C#\Lesson 5\Lesson 5\obj\Debug\netcoreapp3.1\Lesson 5.AssemblyInfo.cs
+D:\Programming\C#\Lesson 5\Lesson 5\obj\Debug\netcoreapp3.1\Lesson 5.csproj.CoreCompileInputs.cache
+D:\Programming\C#\Lesson 5\Lesson 5\obj\Debug\netcoreapp3.1\Lesson 5.dll
+D:\Programming\C#\Lesson 5\Lesson 5\obj\Debug\netcoreapp3.1\Lesson 5.pdb
+D:\Programming\C#\Lesson 5\Lesson 5\obj\Debug\netcoreapp3.1\Lesson 5.genruntimeconfig.cache
+D:\KIDOS\Файлы\Training\С#\Lesson C#\Lesson 5\Lesson 5\bin\Debug\netcoreapp3.1\Lesson 5.exe
+D:\KIDOS\Файлы\Training\С#\Lesson C#\Lesson 5\Lesson 5\bin\Debug\netcoreapp3.1\Lesson 5.deps.json
+D:\KIDOS\Файлы\Training\С#\Lesson C#\Lesson 5\Lesson 5\bin\Debug\netcoreapp3.1\Lesson 5.runtimeconfig.json
+D:\KIDOS\Файлы\Training\С#\Lesson C#\Lesson 5\Lesson 5\bin\Debug\netcoreapp3.1\Lesson 5.runtimeconfig.dev.json
+D:\KIDOS\Файлы\Training\С#\Lesson C#\Lesson 5\Lesson 5\bin\Debug\netcoreapp3.1\Lesson 5.dll
+D:\KIDOS\Файлы\Training\С#\Lesson C#\Lesson 5\Lesson 5\bin\Debug\netcoreapp3.1\Lesson 5.pdb
+D:\KIDOS\Файлы\Training\С#\Lesson C#\Lesson 5\Lesson 5\obj\Debug\netcoreapp3.1\Lesson 5.csprojAssemblyReference.cache
+D:\KIDOS\Файлы\Training\С#\Lesson C#\Lesson 5\Lesson 5\obj\Debug\netcoreapp3.1\Lesson 5.AssemblyInfoInputs.cache
+D:\KIDOS\Файлы\Training\С#\Lesson C#\Lesson 5\Lesson 5\obj\Debug\netcoreapp3.1\Lesson 5.AssemblyInfo.cs
+D:\KIDOS\Файлы\Training\С#\Lesson C#\Lesson 5\Lesson 5\obj\Debug\netcoreapp3.1\Lesson 5.csproj.CoreCompileInputs.cache
+D:\KIDOS\Файлы\Training\С#\Lesson C#\Lesson 5\Lesson 5\obj\Debug\netcoreapp3.1\Lesson 5.dll
+D:\KIDOS\Файлы\Training\С#\Lesson C#\Lesson 5\Lesson 5\obj\Debug\netcoreapp3.1\Lesson 5.pdb
+D:\KIDOS\Файлы\Training\С#\Lesson C#\Lesson 5\Lesson 5\obj\Debug\netcoreapp3.1\Lesson 5.genruntimeconfig.cache
+D:\livek\С#\Lessons\Lesson 5\Lesson 5\bin\Debug\netcoreapp3.1\Lesson 5.exe
+D:\livek\С#\Lessons\Lesson 5\Lesson 5\bin\Debug\netcoreapp3.1\Lesson 5.deps.json
+D:\livek\С#\Lessons\Lesson 5\Lesson 5\bin\Debug\netcoreapp3.1\Lesson 5.runtimeconfig.json
+D:\livek\С#\Lessons\Lesson 5\Lesson 5\bin\Debug\netcoreapp3.1\Lesson 5.runtimeconfig.dev.json
+D:\livek\С#\Lessons\Lesson 5\Lesson 5\bin\Debug\netcoreapp3.1\Lesson 5.dll
+D:\livek\С#\Lessons\Lesson 5\Lesson 5\bin\Debug\netcoreapp3.1\Lesson 5.pdb
+D:\livek\С#\Lessons\Lesson 5\Lesson 5\obj\Debug\netcoreapp3.1\Lesson 5.csproj.AssemblyReference.cache
+D:\livek\С#\Lessons\Lesson 5\Lesson 5\obj\Debug\netcoreapp3.1\Lesson 5.AssemblyInfoInputs.cache
+D:\livek\С#\Lessons\Lesson 5\Lesson 5\obj\Debug\netcoreapp3.1\Lesson 5.AssemblyInfo.cs
+D:\livek\С#\Lessons\Lesson 5\Lesson 5\obj\Debug\netcoreapp3.1\Lesson 5.csproj.CoreCompileInputs.cache
+D:\livek\С#\Lessons\Lesson 5\Lesson 5\obj\Debug\netcoreapp3.1\Lesson 5.dll
+D:\livek\С#\Lessons\Lesson 5\Lesson 5\obj\Debug\netcoreapp3.1\Lesson 5.pdb
+D:\livek\С#\Lessons\Lesson 5\Lesson 5\obj\Debug\netcoreapp3.1\Lesson 5.genruntimeconfig.cache
