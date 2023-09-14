@@ -1,0 +1,14 @@
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\MDU\LabWork1\LabWork1\bin\Debug\net7.0\LabWork1.exe
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\MDU\LabWork1\LabWork1\bin\Debug\net7.0\LabWork1.deps.json
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\MDU\LabWork1\LabWork1\bin\Debug\net7.0\LabWork1.runtimeconfig.json
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\MDU\LabWork1\LabWork1\bin\Debug\net7.0\LabWork1.dll
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\MDU\LabWork1\LabWork1\bin\Debug\net7.0\LabWork1.pdb
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\MDU\LabWork1\LabWork1\obj\Debug\net7.0\LabWork1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\MDU\LabWork1\LabWork1\obj\Debug\net7.0\LabWork1.AssemblyInfoInputs.cache
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\MDU\LabWork1\LabWork1\obj\Debug\net7.0\LabWork1.AssemblyInfo.cs
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\MDU\LabWork1\LabWork1\obj\Debug\net7.0\LabWork1.csproj.CoreCompileInputs.cache
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\MDU\LabWork1\LabWork1\obj\Debug\net7.0\LabWork1.dll
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\MDU\LabWork1\LabWork1\obj\Debug\net7.0\refint\LabWork1.dll
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\MDU\LabWork1\LabWork1\obj\Debug\net7.0\LabWork1.pdb
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\MDU\LabWork1\LabWork1\obj\Debug\net7.0\LabWork1.genruntimeconfig.cache
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\MDU\LabWork1\LabWork1\obj\Debug\net7.0\ref\LabWork1.dll
