@@ -49,21 +49,45 @@
 const double START_X = 10.3;
 const double D_X = 0.7;
 
-
-double founction(double x)
-{
-    double x1 = 2.76 * x;
-    double x2 = 0.5 * x;
-    return Math.Log10(x1)/Math.Pow((0.6 * x1) * Math.Sin(x2) * Math.PowMath.Cos(x1),1/5);
-}
-
 double[] _arr = new double[10];
 double _x = START_X;
 
+
+double Function(double x)
+{
+    if (!double.IsNaN(x)) 
+    {
+        double x1 = 2.76 * x;
+        double x2 = 0.5 * x;
+        return Math.Log10(x1) / Math.Pow((0.6 * x1) * Math.Sin(x2) * Math.Pow(Math.Cos(x1), 4), 1 / 5);
+    }
+    return 0;
+}
+
+void R(double[] arr)
+{
+    double _min = arr[arr.GetUpperBound(0)];
+    double _max = arr[arr.GetLowerBound(0)];
+    double _avg = arr.Average();
+    double _percentAvg = _avg * 10 / 100;
+    double _sum = 0, _countAvg = 0, _countPercentAvg = 0;
+    double _answer = 0;
+    if (arr != null)
+        for (int i = arr.GetLowerBound(0); i <= arr.GetUpperBound(0); i++)
+        {
+            _sum += arr[i];
+            _countAvg += _sum / (i + 1);
+            _countPercentAvg = _countAvg * 10 / 100;
+            _answer = _avg - _countPercentAvg + _percentAvg;
+            Console.WriteLine("Середнє значення масиву: {0:0.0000}", _answer);
+        }
+    Console.WriteLine("Мiнiмальне значення масиву: {0:0.0000}", _min);
+    Console.WriteLine("Максимальне значення масиву: {0:0.0000}", _max);
+}
+
 for (int i = _arr.GetLowerBound(0); i <= _arr.GetUpperBound(0); i++)
 {
-
-
+    _arr[i] = Function(_x);
     _x += D_X;
 }
 
@@ -74,12 +98,6 @@ Console.WriteLine("Вiдсортованi за спаданням значенн
 for (int i = _arr.GetLowerBound(0); i <= _arr.GetUpperBound(0); i++)
     Console.WriteLine("arr[{0:00}] = {1:0.0000}", i, _arr[i]);
 
+R(_arr);
 
-double aMin = _arr[_arr.GetUpperBound(0)];
-double aMax = _arr[_arr.GetLowerBound(0)];
-double aAvg = _arr.Length / _arr.GetUpperBound(0);
-
-Console.WriteLine("Мiнiмальне значення масиву: {0:0.0000}", aMin);
-Console.WriteLine("Максимальне значення масиву: {0:0.0000}", aMax);
-Console.WriteLine("Середнє значення масиву: {0:0.0000}", aAvg);
 Console.ReadKey(true);
