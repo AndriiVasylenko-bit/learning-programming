@@ -1,13 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "g+jWpjsGuVMgdHqAscjh9gxE8AhBGJ+18IYC7CBHKMuPDPqqjQ4dCISF4QNMp5msy0iHa0XsR1aDRPXmiKp90w==",
+  "dgSpecHash": "5cyyyrwTjWlZIxxccdFcZ6k9r/OnH9lu+8Nx6pI55PLhq+YWCItJlaoyb1qbkjM+27xt7vhci8pn0ReqknRHQA==",
   "success": true,
-  "projectFilePath": "D:\\_Development\\Git\\KIDOS95\\Lesson\\C#\\Lesson 16\\Lesson 16\\Lesson 16.csproj",
+  "projectFilePath": "D:\\Projects\\Git\\AndriiVasylenko-bit\\learning-c-sharp\\code-blog\\Lesson 16\\Lesson 16\\Lesson 16.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\livek\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.15\\microsoft.netcore.app.host.win-x64.5.0.15.nupkg.sha512",
-    "C:\\Users\\livek\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\livek\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\livek\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+    "C:\\Users\\livek\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
   ],
   "logs": []
 }

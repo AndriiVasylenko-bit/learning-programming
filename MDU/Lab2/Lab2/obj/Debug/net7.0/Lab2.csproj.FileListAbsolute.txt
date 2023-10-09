@@ -12,3 +12,6 @@ D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\MDU\Lab2\Lab2\obj\Debug\net
 D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\MDU\Lab2\Lab2\obj\Debug\net7.0\Lab2.pdb
 D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\MDU\Lab2\Lab2\obj\Debug\net7.0\Lab2.genruntimeconfig.cache
 D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\MDU\Lab2\Lab2\obj\Debug\net7.0\ref\Lab2.dll
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\MDU\Lab2\Lab2\bin\Debug\net7.0\Baseline.dll
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\MDU\Lab2\Lab2\obj\Debug\net7.0\Lab2.csproj.AssemblyReference.cache
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\MDU\Lab2\Lab2\obj\Debug\net7.0\Lab2.csproj.CopyComplete

@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "MKlYUaxCgeaaXCdRB1i8cKgbDxpDRMNbyqkqvhm2D8uzYEyJgerI5dp1U+jhQRfftwDQig+rX/grLggTk3S6vQ==",
+  "dgSpecHash": "Zhl5b4PN2AmHytpbE6Y7JS6NqjUMkGsuYbNLXmjmU2+EXKNa8xLy1qwdBYutQR6zEANFpWMtgBDJ5a7I+LM9zQ==",
   "success": true,
   "projectFilePath": "D:\\Projects\\Git\\AndriiVasylenko-bit\\learning-c-sharp\\MDU\\Lab2\\Lab2\\Lab2.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\livek\\.nuget\\packages\\baseline\\4.1.0\\baseline.4.1.0.nupkg.sha512",
+    "C:\\Users\\livek\\.nuget\\packages\\imtools\\4.0.0\\imtools.4.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

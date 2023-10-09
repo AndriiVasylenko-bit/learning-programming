@@ -4,7 +4,7 @@ namespace Lesson_15
 {
 
     //public delegate void Move();
- 
+
     class Program
     {
         //public delegate int ValueTime(int valueSpeed);
@@ -101,9 +101,10 @@ namespace Lesson_15
             Console.WriteLine("Человек пошел спать.");
         }
 
-        private static int Sum(int a, int b, Func<int, int, int> clac)
+
+        private static int Sum(int a, int b, Func<int, int, int> calc)
         {
-            return clac(a, b);
+            return calc(a, b);
         }
 
         private static int Calc1(int i, int j)
