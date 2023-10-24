@@ -1,0 +1,14 @@
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\Homework\Homework\bin\Debug\net7.0\Homework.exe
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\Homework\Homework\bin\Debug\net7.0\Homework.deps.json
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\Homework\Homework\bin\Debug\net7.0\Homework.runtimeconfig.json
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\Homework\Homework\bin\Debug\net7.0\Homework.dll
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\Homework\Homework\bin\Debug\net7.0\Homework.pdb
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\Homework\Homework\obj\Debug\net7.0\Homework.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\Homework\Homework\obj\Debug\net7.0\Homework.AssemblyInfoInputs.cache
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\Homework\Homework\obj\Debug\net7.0\Homework.AssemblyInfo.cs
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\Homework\Homework\obj\Debug\net7.0\Homework.csproj.CoreCompileInputs.cache
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\Homework\Homework\obj\Debug\net7.0\Homework.dll
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\Homework\Homework\obj\Debug\net7.0\refint\Homework.dll
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\Homework\Homework\obj\Debug\net7.0\Homework.pdb
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\Homework\Homework\obj\Debug\net7.0\Homework.genruntimeconfig.cache
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\Homework\Homework\obj\Debug\net7.0\ref\Homework.dll

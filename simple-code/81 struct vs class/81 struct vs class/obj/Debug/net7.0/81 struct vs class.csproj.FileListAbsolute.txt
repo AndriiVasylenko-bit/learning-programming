@@ -1,0 +1,14 @@
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\81 struct vs class\81 struct vs class\bin\Debug\net7.0\81 struct vs class.exe
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\81 struct vs class\81 struct vs class\bin\Debug\net7.0\81 struct vs class.deps.json
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\81 struct vs class\81 struct vs class\bin\Debug\net7.0\81 struct vs class.runtimeconfig.json
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\81 struct vs class\81 struct vs class\bin\Debug\net7.0\81 struct vs class.dll
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\81 struct vs class\81 struct vs class\bin\Debug\net7.0\81 struct vs class.pdb
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\81 struct vs class\81 struct vs class\obj\Debug\net7.0\81 struct vs class.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\81 struct vs class\81 struct vs class\obj\Debug\net7.0\81 struct vs class.AssemblyInfoInputs.cache
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\81 struct vs class\81 struct vs class\obj\Debug\net7.0\81 struct vs class.AssemblyInfo.cs
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\81 struct vs class\81 struct vs class\obj\Debug\net7.0\81 struct vs class.csproj.CoreCompileInputs.cache
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\81 struct vs class\81 struct vs class\obj\Debug\net7.0\81 struct vs class.dll
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\81 struct vs class\81 struct vs class\obj\Debug\net7.0\refint\81 struct vs class.dll
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\81 struct vs class\81 struct vs class\obj\Debug\net7.0\81 struct vs class.pdb
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\81 struct vs class\81 struct vs class\obj\Debug\net7.0\81 struct vs class.genruntimeconfig.cache
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\81 struct vs class\81 struct vs class\obj\Debug\net7.0\ref\81 struct vs class.dll

@@ -1,0 +1,14 @@
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\44 REF & OUT\44 REF & OUT\bin\Debug\net7.0\44 REF & OUT.exe
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\44 REF & OUT\44 REF & OUT\bin\Debug\net7.0\44 REF & OUT.deps.json
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\44 REF & OUT\44 REF & OUT\bin\Debug\net7.0\44 REF & OUT.runtimeconfig.json
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\44 REF & OUT\44 REF & OUT\bin\Debug\net7.0\44 REF & OUT.dll
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\44 REF & OUT\44 REF & OUT\bin\Debug\net7.0\44 REF & OUT.pdb
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\44 REF & OUT\44 REF & OUT\obj\Debug\net7.0\44 REF & OUT.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\44 REF & OUT\44 REF & OUT\obj\Debug\net7.0\44 REF & OUT.AssemblyInfoInputs.cache
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\44 REF & OUT\44 REF & OUT\obj\Debug\net7.0\44 REF & OUT.AssemblyInfo.cs
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\44 REF & OUT\44 REF & OUT\obj\Debug\net7.0\44 REF & OUT.csproj.CoreCompileInputs.cache
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\44 REF & OUT\44 REF & OUT\obj\Debug\net7.0\44 REF & OUT.dll
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\44 REF & OUT\44 REF & OUT\obj\Debug\net7.0\refint\44 REF & OUT.dll
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\44 REF & OUT\44 REF & OUT\obj\Debug\net7.0\44 REF & OUT.pdb
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\44 REF & OUT\44 REF & OUT\obj\Debug\net7.0\44 REF & OUT.genruntimeconfig.cache
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\44 REF & OUT\44 REF & OUT\obj\Debug\net7.0\ref\44 REF & OUT.dll

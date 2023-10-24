@@ -1,0 +1,14 @@
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\TestBenchmarkdotnet\TestBenchmarkdotnet\bin\Release\net7.0\TestBenchmarkdotnet.exe
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\TestBenchmarkdotnet\TestBenchmarkdotnet\bin\Release\net7.0\TestBenchmarkdotnet.deps.json
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\TestBenchmarkdotnet\TestBenchmarkdotnet\bin\Release\net7.0\TestBenchmarkdotnet.runtimeconfig.json
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\TestBenchmarkdotnet\TestBenchmarkdotnet\bin\Release\net7.0\TestBenchmarkdotnet.dll
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\TestBenchmarkdotnet\TestBenchmarkdotnet\bin\Release\net7.0\TestBenchmarkdotnet.pdb
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\TestBenchmarkdotnet\TestBenchmarkdotnet\obj\Release\net7.0\TestBenchmarkdotnet.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\TestBenchmarkdotnet\TestBenchmarkdotnet\obj\Release\net7.0\TestBenchmarkdotnet.AssemblyInfoInputs.cache
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\TestBenchmarkdotnet\TestBenchmarkdotnet\obj\Release\net7.0\TestBenchmarkdotnet.AssemblyInfo.cs
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\TestBenchmarkdotnet\TestBenchmarkdotnet\obj\Release\net7.0\TestBenchmarkdotnet.csproj.CoreCompileInputs.cache
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\TestBenchmarkdotnet\TestBenchmarkdotnet\obj\Release\net7.0\TestBenchmarkdotnet.dll
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\TestBenchmarkdotnet\TestBenchmarkdotnet\obj\Release\net7.0\refint\TestBenchmarkdotnet.dll
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\TestBenchmarkdotnet\TestBenchmarkdotnet\obj\Release\net7.0\TestBenchmarkdotnet.pdb
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\TestBenchmarkdotnet\TestBenchmarkdotnet\obj\Release\net7.0\TestBenchmarkdotnet.genruntimeconfig.cache
+D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\TestBenchmarkdotnet\TestBenchmarkdotnet\obj\Release\net7.0\ref\TestBenchmarkdotnet.dll

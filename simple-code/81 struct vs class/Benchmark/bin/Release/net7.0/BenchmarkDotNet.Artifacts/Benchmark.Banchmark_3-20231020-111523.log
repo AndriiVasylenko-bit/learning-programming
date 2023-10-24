@@ -1,0 +1,7 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 2 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet  restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\81 struct vs class\Benchmark\bin\Release\net7.0\b48895cb-2d3a-49c7-9372-bec5b25662d7
+// command took 1.46 sec and exited with 0
+// start dotnet  build -c Release --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in D:\Projects\Git\AndriiVasylenko-bit\learning-c-sharp\simple-code\81 struct vs class\Benchmark\bin\Release\net7.0\b48895cb-2d3a-49c7-9372-bec5b25662d7
