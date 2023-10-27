@@ -1,0 +1,17 @@
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab5Bike\Lab5Bike\bin\Debug\net7.0-windows\Lab5Bike.exe
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab5Bike\Lab5Bike\bin\Debug\net7.0-windows\Lab5Bike.deps.json
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab5Bike\Lab5Bike\bin\Debug\net7.0-windows\Lab5Bike.runtimeconfig.json
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab5Bike\Lab5Bike\bin\Debug\net7.0-windows\Lab5Bike.dll
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab5Bike\Lab5Bike\bin\Debug\net7.0-windows\Lab5Bike.pdb
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab5Bike\Lab5Bike\obj\Debug\net7.0-windows\Lab5Bike.fBike.resources
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab5Bike\Lab5Bike\obj\Debug\net7.0-windows\Lab5Bike.fMain.resources
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab5Bike\Lab5Bike\obj\Debug\net7.0-windows\Lab5Bike.csproj.GenerateResource.cache
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab5Bike\Lab5Bike\obj\Debug\net7.0-windows\Lab5Bike.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab5Bike\Lab5Bike\obj\Debug\net7.0-windows\Lab5Bike.AssemblyInfoInputs.cache
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab5Bike\Lab5Bike\obj\Debug\net7.0-windows\Lab5Bike.AssemblyInfo.cs
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab5Bike\Lab5Bike\obj\Debug\net7.0-windows\Lab5Bike.csproj.CoreCompileInputs.cache
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab5Bike\Lab5Bike\obj\Debug\net7.0-windows\Lab5Bike.dll
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab5Bike\Lab5Bike\obj\Debug\net7.0-windows\refint\Lab5Bike.dll
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab5Bike\Lab5Bike\obj\Debug\net7.0-windows\Lab5Bike.pdb
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab5Bike\Lab5Bike\obj\Debug\net7.0-windows\Lab5Bike.genruntimeconfig.cache
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab5Bike\Lab5Bike\obj\Debug\net7.0-windows\ref\Lab5Bike.dll

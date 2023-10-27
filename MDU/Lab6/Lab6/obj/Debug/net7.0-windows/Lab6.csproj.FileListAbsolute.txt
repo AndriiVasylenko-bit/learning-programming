@@ -1,0 +1,16 @@
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab6\Lab6\bin\Debug\net7.0-windows\Lab6.exe
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab6\Lab6\bin\Debug\net7.0-windows\Lab6.deps.json
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab6\Lab6\bin\Debug\net7.0-windows\Lab6.runtimeconfig.json
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab6\Lab6\bin\Debug\net7.0-windows\Lab6.dll
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab6\Lab6\bin\Debug\net7.0-windows\Lab6.pdb
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab6\Lab6\obj\Debug\net7.0-windows\Lab6.fMain.resources
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab6\Lab6\obj\Debug\net7.0-windows\Lab6.csproj.GenerateResource.cache
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab6\Lab6\obj\Debug\net7.0-windows\Lab6.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab6\Lab6\obj\Debug\net7.0-windows\Lab6.AssemblyInfoInputs.cache
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab6\Lab6\obj\Debug\net7.0-windows\Lab6.AssemblyInfo.cs
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab6\Lab6\obj\Debug\net7.0-windows\Lab6.csproj.CoreCompileInputs.cache
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab6\Lab6\obj\Debug\net7.0-windows\Lab6.dll
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab6\Lab6\obj\Debug\net7.0-windows\refint\Lab6.dll
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab6\Lab6\obj\Debug\net7.0-windows\Lab6.pdb
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab6\Lab6\obj\Debug\net7.0-windows\Lab6.genruntimeconfig.cache
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab6\Lab6\obj\Debug\net7.0-windows\ref\Lab6.dll
