@@ -44,6 +44,8 @@
             btnClear = new Button();
             btnExit = new Button();
             gv = new DataGridView();
+            tbSumY = new TextBox();
+            label7 = new Label();
             ((System.ComponentModel.ISupportInitialize)gv).BeginInit();
             SuspendLayout();
             // 
@@ -178,17 +180,40 @@
             gv.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             gv.Location = new Point(23, 96);
             gv.Name = "gv";
+            gv.ReadOnly = true;
             gv.RowHeadersWidth = 51;
             gv.RowTemplate.Height = 29;
             gv.Size = new Size(593, 320);
             gv.TabIndex = 15;
             gv.CellContentClick += dataGridView1_CellContentClick;
             // 
+            // tbSumY
+            // 
+            tbSumY.Location = new Point(190, 428);
+            tbSumY.Name = "tbSumY";
+            tbSumY.ReadOnly = true;
+            tbSumY.Size = new Size(125, 27);
+            tbSumY.TabIndex = 16;
+            tbSumY.TextChanged += tbSumY_TextChanged;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Location = new Point(23, 431);
+            label7.Name = "label7";
+            label7.Size = new Size(161, 25);
+            label7.TabIndex = 17;
+            label7.Text = "Cума квадратів (y < 0)";
+            label7.UseCompatibleTextRendering = true;
+            label7.Click += label7_Click;
+            // 
             // fMain
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(748, 440);
+            ClientSize = new Size(748, 467);
+            Controls.Add(label7);
+            Controls.Add(tbSumY);
             Controls.Add(gv);
             Controls.Add(btnExit);
             Controls.Add(btnClear);
@@ -231,5 +256,7 @@
         private Button btnClear;
         private Button btnExit;
         private DataGridView gv;
+        private TextBox tbSumY;
+        private Label label7;
     }
 }

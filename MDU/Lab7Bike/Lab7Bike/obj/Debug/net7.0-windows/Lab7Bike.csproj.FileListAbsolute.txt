@@ -1,0 +1,17 @@
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab7Bike\Lab7Bike\obj\Debug\net7.0-windows\Lab7Bike.csproj.GenerateResource.cache
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab7Bike\Lab7Bike\obj\Debug\net7.0-windows\Lab7Bike.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab7Bike\Lab7Bike\obj\Debug\net7.0-windows\Lab7Bike.AssemblyInfoInputs.cache
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab7Bike\Lab7Bike\obj\Debug\net7.0-windows\Lab7Bike.AssemblyInfo.cs
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab7Bike\Lab7Bike\obj\Debug\net7.0-windows\Lab7Bike.csproj.CoreCompileInputs.cache
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab7Bike\Lab7Bike\bin\Debug\net7.0-windows\Lab7Bike.exe
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab7Bike\Lab7Bike\bin\Debug\net7.0-windows\Lab7Bike.deps.json
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab7Bike\Lab7Bike\bin\Debug\net7.0-windows\Lab7Bike.runtimeconfig.json
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab7Bike\Lab7Bike\bin\Debug\net7.0-windows\Lab7Bike.dll
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab7Bike\Lab7Bike\bin\Debug\net7.0-windows\Lab7Bike.pdb
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab7Bike\Lab7Bike\obj\Debug\net7.0-windows\Lab7Bike.dll
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab7Bike\Lab7Bike\obj\Debug\net7.0-windows\refint\Lab7Bike.dll
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab7Bike\Lab7Bike\obj\Debug\net7.0-windows\Lab7Bike.pdb
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab7Bike\Lab7Bike\obj\Debug\net7.0-windows\Lab7Bike.genruntimeconfig.cache
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab7Bike\Lab7Bike\obj\Debug\net7.0-windows\ref\Lab7Bike.dll
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab7Bike\Lab7Bike\obj\Debug\net7.0-windows\Lab7Bike.fBike.resources
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab7Bike\Lab7Bike\obj\Debug\net7.0-windows\Lab7Bike.fMain.resources
