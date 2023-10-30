@@ -1,5 +1,8 @@
-﻿using System.Windows.Forms;
+﻿//using System.Windows.Forms;
+using NetTopologySuite.Utilities;
 using System.Drawing;
+using System.Windows.Forms;
+//using NetTopologySuite.Geometries;
 
 class CCircle
 { // Константи
@@ -43,12 +46,33 @@ class CCircle
     }
     // Малює коло на поверхні малювання GDI+.
     // Параметри кола задає перо pen
+
     private void Draw(Pen pen)
     {
-
-        Rectangle rectangle = new Rectangle(X - Radius, Y - Radius,
+        int recX = X - Radius, recY = Y - Radius;
+        Rectangle rectangle = new Rectangle(recX, recY,
         2 * Radius, 2 * Radius);
         graphics.DrawEllipse(pen, rectangle);
+
+        Point A = new Point(X + Radius, Y);
+        Point B = new Point(X, Y + Radius);
+        Point C = new Point(X - Radius, Y);
+        Point D = new Point(X, Y - Radius);
+        graphics.DrawLine(pen, A, B);
+        graphics.DrawLine(pen, B, C);
+        graphics.DrawLine(pen, C, D);
+        graphics.DrawLine(pen, D, A);
+
+        PointF[] trianglePoints = new PointF[3];
+        for (int i = 0; i < 3; i++)
+        {
+            float angle = (float)(2 * Math.PI / 3 * i);
+            angle += (float)(Math.PI / 2);
+            float trX = X + Radius * (float)Math.Cos(angle);
+            float trY = Y + Radius * (float)Math.Sin(angle);
+            trianglePoints[i] = new PointF(trX, trY);
+        }
+        graphics.DrawPolygon(pen, trianglePoints);
     }
     // Показує коло (малює на поверхні малювання GDI+ кольором
     // переднього плану)

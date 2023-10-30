@@ -10,17 +10,7 @@ namespace Lab8
         {
             InitializeComponent();
             circles = new CCircle[100];
-        }
-
-        private void pnTools_Paint(object sender, PaintEventArgs e)
-        {
-
-
-        }
-
-        private void fMain_Load(object sender, EventArgs e)
-        {
-
+            //this.Paint += new PaintEventHandler(DrawCircleAndTriangle);
         }
 
         private void btnCreateNew_Click(object sender, EventArgs e)

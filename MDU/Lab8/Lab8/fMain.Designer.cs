@@ -76,11 +76,10 @@
             pnTools.Controls.Add(cbCircles);
             pnTools.Controls.Add(label1);
             pnTools.Dock = DockStyle.Right;
-            pnTools.Location = new Point(550, 0);
+            pnTools.Location = new Point(546, 0);
             pnTools.Name = "pnTools";
-            pnTools.Size = new Size(295, 715);
+            pnTools.Size = new Size(299, 715);
             pnTools.TabIndex = 1;
-            pnTools.Paint += pnTools_Paint;
             // 
             // btnLeftFar
             // 
@@ -184,9 +183,9 @@
             // 
             // btnShow
             // 
-            btnShow.Location = new Point(0, 199);
+            btnShow.Location = new Point(17, 199);
             btnShow.Name = "btnShow";
-            btnShow.Size = new Size(310, 29);
+            btnShow.Size = new Size(264, 29);
             btnShow.TabIndex = 4;
             btnShow.Text = "Показати об'єкт";
             btnShow.UseVisualStyleBackColor = true;
@@ -194,9 +193,9 @@
             // 
             // btnHide
             // 
-            btnHide.Location = new Point(0, 164);
+            btnHide.Location = new Point(17, 164);
             btnHide.Name = "btnHide";
-            btnHide.Size = new Size(310, 29);
+            btnHide.Size = new Size(264, 29);
             btnHide.TabIndex = 3;
             btnHide.Text = "Приховати об'єкт";
             btnHide.UseVisualStyleBackColor = true;
@@ -204,9 +203,9 @@
             // 
             // btnCreateNew
             // 
-            btnCreateNew.Location = new Point(0, 129);
+            btnCreateNew.Location = new Point(17, 129);
             btnCreateNew.Name = "btnCreateNew";
-            btnCreateNew.Size = new Size(310, 29);
+            btnCreateNew.Size = new Size(264, 29);
             btnCreateNew.TabIndex = 2;
             btnCreateNew.Text = "Створити новий об'єкт";
             btnCreateNew.UseVisualStyleBackColor = true;
@@ -216,15 +215,15 @@
             // 
             cbCircles.DropDownStyle = ComboBoxStyle.DropDownList;
             cbCircles.FormattingEnabled = true;
-            cbCircles.Location = new Point(0, 67);
+            cbCircles.Location = new Point(17, 67);
             cbCircles.Name = "cbCircles";
-            cbCircles.Size = new Size(310, 28);
+            cbCircles.Size = new Size(264, 28);
             cbCircles.TabIndex = 1;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(0, 44);
+            label1.Location = new Point(17, 44);
             label1.Name = "label1";
             label1.Size = new Size(123, 20);
             label1.TabIndex = 0;
@@ -240,7 +239,6 @@
             Name = "fMain";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Лабораторна робота №11";
-            Load += fMain_Load;
             pnTools.ResumeLayout(false);
             pnTools.PerformLayout();
             ResumeLayout(false);
