@@ -147,6 +147,7 @@
             tbName.Name = "tbName";
             tbName.Size = new Size(170, 27);
             tbName.TabIndex = 9;
+            tbName.TextChanged += tbName_TextChanged;
             // 
             // tbCost
             // 
@@ -251,7 +252,7 @@
             Name = "fBike";
             ShowInTaskbar = false;
             StartPosition = FormStartPosition.CenterParent;
-            Text = "Data from to new Bike";
+            Text = "Data from to Bike";
             Load += fBike_Load;
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();

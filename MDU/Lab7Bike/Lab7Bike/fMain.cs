@@ -44,10 +44,6 @@ namespace Lab7Bike
             gvBikes.Columns.Add(column);
             bindSrcBike.Add(new Bike("Kinetic 29\" CRYSTAL 2023", 17238, 2463, 29,
             "Касета", "Пружина еластична", "Алюміній", "Дискові"));
-            bindSrcBike.Add(new Bike("Kinetic 29\" CRYSTAL 2023", 17238, 2463, 29,
-            "Касета", "Пружина еластична", "Алюміній", "Дискові"));
-            bindSrcBike.Add(new Bike("Kinetic 29\" CRYSTAL 2023", 17238, 2463, 29,
-            "Касета", "Пружина еластична", "Алюміній", "Дискові"));
 
             EventArgs args = new EventArgs();
             OnResize(args);

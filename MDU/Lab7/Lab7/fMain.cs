@@ -45,8 +45,9 @@ namespace Lab7
             column.Name = "јеропорт";
             column.Width = 60;
             gvTowns.Columns.Add(column);
-            bindSrcTowns.Add(new Town("f", "f", "a обл.", 2,
-            2040000, 4300, false, true));
+            bindSrcTowns.Add(new Town("Ћьв≥в", "”крањна", "Ћьв≥вська обл.", 800000,
+            2000000, 400, false, true));
+
 
             EventArgs args = new EventArgs();
             OnResize(args);

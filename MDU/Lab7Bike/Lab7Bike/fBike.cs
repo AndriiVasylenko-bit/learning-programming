@@ -27,14 +27,14 @@ namespace Lab7Bike
 
         private void btnOk_Click(object sender, EventArgs e)
         {
-            _bike._name = tbName.Text.Trim();
-            _bike._cost = double.Parse(tbCost.Text.Trim());
-            _bike._installment = double.Parse(tbInstallment.Text.Trim());
-            _bike._diameterWheels = int.Parse(tbDiameterWheels.Text.Trim());
-            _bike._sleeveStyle = tbSleeveStyle.Text.Trim();
-            _bike._plugType = tbPlugType.Text.Trim();
-            _bike._materialFrame = tbMaterialFrame.Text.Trim();
-            _bike._typeBrakes = tbTypeBrakes.Text.Trim();
+            _bike.Name = tbName.Text.Trim();
+            _bike.Cost = double.Parse(tbCost.Text.Trim());
+            _bike.Installment = double.Parse(tbInstallment.Text.Trim());
+            _bike.DiameterWheels = int.Parse(tbDiameterWheels.Text.Trim());
+            _bike.SleeveStyle = tbSleeveStyle.Text.Trim();
+            _bike.PlugType = tbPlugType.Text.Trim();
+            _bike.MaterialFrame = tbMaterialFrame.Text.Trim();
+            _bike.TypeBrakes = tbTypeBrakes.Text.Trim();
             DialogResult = DialogResult.OK;
         }
 
@@ -47,18 +47,23 @@ namespace Lab7Bike
         {
             if (_bike != null)
             {
-                tbName.Text = _bike._name;
-                tbCost.Text = _bike._cost.ToString("0.00");
-                tbInstallment.Text = _bike._installment.ToString("0.00");
-                tbDiameterWheels.Text = _bike._diameterWheels.ToString("0");
-                tbSleeveStyle.Text = _bike._sleeveStyle;
-                tbPlugType.Text = _bike._plugType;
-                tbMaterialFrame.Text = _bike._materialFrame;
-                tbTypeBrakes.Text = _bike._typeBrakes;
+                tbName.Text = _bike.Name;
+                tbCost.Text = _bike.Cost.ToString("0.00");
+                tbInstallment.Text = _bike.Installment.ToString("0.00");
+                tbDiameterWheels.Text = _bike.DiameterWheels.ToString("0");
+                tbSleeveStyle.Text = _bike.SleeveStyle;
+                tbPlugType.Text = _bike.PlugType;
+                tbMaterialFrame.Text = _bike.MaterialFrame;
+                tbTypeBrakes.Text = _bike.TypeBrakes;
             }
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tbName_TextChanged(object sender, EventArgs e)
         {
 
         }

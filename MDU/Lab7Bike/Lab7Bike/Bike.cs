@@ -8,19 +8,19 @@ namespace Lab7Bike
 {
     public class Bike
     {
-        public string _name { get; set; }
-        public double _cost { get; set; }
-        public double _installment { get; set; }
-        public double _diameterWheels { get; set; }
-        public string _sleeveStyle { get; set; }
-        public string _plugType { get; set; }
-        public string _materialFrame { get; set; }
-        public string _typeBrakes { get; set; }
+        public string Name { get; set; }
+        public double Cost { get; set; }
+        public double Installment { get; set; }
+        public double DiameterWheels { get; set; }
+        public string SleeveStyle { get; set; }
+        public string PlugType { get; set; }
+        public string MaterialFrame { get; set; }
+        public string TypeBrakes { get; set; }
 
         public int NumberPayments()
         {
-            if (_installment > 0)
-                return Convert.ToInt32(Math.Round(_cost / _installment));
+            if (Installment > 0)
+                return Convert.ToInt32(Math.Round(Cost / Installment));
             else
                 return 0;
         }
@@ -32,14 +32,14 @@ namespace Lab7Bike
             sleeveStyle, string plugType, string materialFrame,
             string typeBrakes)
         {
-            _name = name;
-            _cost = cost;
-            _installment = installment;
-            _diameterWheels = diameterWheels;
-            _sleeveStyle = sleeveStyle;
-            _plugType = plugType;
-            _materialFrame = materialFrame;
-            _typeBrakes = typeBrakes;
+            Name = name;
+            Cost = cost;
+            Installment = installment;
+            DiameterWheels = diameterWheels;
+            SleeveStyle = sleeveStyle;
+            PlugType = plugType;
+            MaterialFrame = materialFrame;
+            TypeBrakes = typeBrakes;
         }
     }
 }
