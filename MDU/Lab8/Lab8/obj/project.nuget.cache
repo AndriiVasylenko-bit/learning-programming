@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "PSe8Ui/X4nFR320mOv5u/Q5/MnirpmTqL9y838RLOzmG9w2W/Pzctg4IORw6pADTO6n0b58jr7HahdF9NeXDmg==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\Git\\AndriiVasylenko-bit\\learning-programming\\MDU\\Lab8\\Lab8\\Lab8.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\livek\\.nuget\\packages\\nettopologysuite\\2.5.0\\nettopologysuite.2.5.0.nupkg.sha512",
+    "C:\\Users\\livek\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512"
+  ],
+  "logs": []
+}
