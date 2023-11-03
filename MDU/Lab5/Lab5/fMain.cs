@@ -14,21 +14,21 @@ namespace Lab5
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Town town = new Town();
-            fTown ft = new fTown(town);
+            Tablet tablet = new Tablet();
+            fTablet ft = new fTablet(tablet);
             if (ft.ShowDialog() == DialogResult.OK)
             {
-                tbTownsInfo.Text +=
-                string.Format("{0}, {1}, {2}. Мешканців: {3}. Річний дохід: {4:0.00} грн. Площа: {5:0.000} кв.км. [{6} | {7}] | Річний дохід на мешканця: {8:0.00}грн\r\n",
-                    town.Name,
-                    town.Country,
-                    town.Region,
-                    town.Population,
-                    town.YearIncome,
-                    town.Square,
-                    town.HasPort ? "Є порт" : "Немає порта",
-                    town.HasAirport ? "Є аеропорт" : "Немає аеропорта",
-                    town.GetYearIncomePerInhabitant());
+                tbTabletInfo.Text +=
+                string.Format("• {0}, {1:0.00} hrn, {2:0.00} hrn. Size: {3}\". Processor: {4}. FaceID: {5}. Camera {6} Connecteur {7} | Number Payments: {8} months.\r\n",
+                    tablet._name,
+                    tablet._cost,
+                    tablet._installment,
+                    tablet._size,
+                    tablet._processor,
+                    tablet._faceID ? "Є" : "Немає",
+                    tablet._сamera,
+                    tablet._connecteur,
+                    tablet.NumberPayments());
             }
         }
 

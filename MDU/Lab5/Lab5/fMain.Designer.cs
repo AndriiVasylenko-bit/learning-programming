@@ -28,29 +28,29 @@
         /// </summary>
         private void InitializeComponent()
         {
-            tbTownsInfo = new TextBox();
-            btnAddTown = new Button();
+            tbTabletInfo = new TextBox();
+            btnAddTablet = new Button();
             btnClose = new Button();
             SuspendLayout();
             // 
-            // tbTownsInfo
+            // tbTabletInfo
             // 
-            tbTownsInfo.Location = new Point(12, 12);
-            tbTownsInfo.Multiline = true;
-            tbTownsInfo.Name = "tbTownsInfo";
-            tbTownsInfo.ReadOnly = true;
-            tbTownsInfo.Size = new Size(723, 419);
-            tbTownsInfo.TabIndex = 0;
+            tbTabletInfo.Location = new Point(12, 12);
+            tbTabletInfo.Multiline = true;
+            tbTabletInfo.Name = "tbTabletInfo";
+            tbTabletInfo.ReadOnly = true;
+            tbTabletInfo.Size = new Size(723, 419);
+            tbTabletInfo.TabIndex = 0;
             // 
-            // btnAddTown
+            // btnAddTablet
             // 
-            btnAddTown.Location = new Point(741, 12);
-            btnAddTown.Name = "btnAddTown";
-            btnAddTown.Size = new Size(127, 29);
-            btnAddTown.TabIndex = 1;
-            btnAddTown.Text = "Додати місто";
-            btnAddTown.UseVisualStyleBackColor = true;
-            btnAddTown.Click += button1_Click;
+            btnAddTablet.Location = new Point(741, 12);
+            btnAddTablet.Name = "btnAddTablet";
+            btnAddTablet.Size = new Size(127, 29);
+            btnAddTablet.TabIndex = 1;
+            btnAddTablet.Text = "Додати місто";
+            btnAddTablet.UseVisualStyleBackColor = true;
+            btnAddTablet.Click += button1_Click;
             // 
             // btnClose
             // 
@@ -68,12 +68,12 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(883, 444);
             Controls.Add(btnClose);
-            Controls.Add(btnAddTown);
-            Controls.Add(tbTownsInfo);
+            Controls.Add(btnAddTablet);
+            Controls.Add(tbTabletInfo);
             MaximizeBox = false;
             Name = "fMain";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Лабораторна робота №8";
+            Text = "Info";
             Load += fMain_Load;
             ResumeLayout(false);
             PerformLayout();
@@ -81,8 +81,8 @@
 
         #endregion
 
-        private TextBox tbTownsInfo;
-        private Button btnAddTown;
+        private TextBox tbTabletInfo;
+        private Button btnAddTablet;
         private Button btnClose;
     }
 }
