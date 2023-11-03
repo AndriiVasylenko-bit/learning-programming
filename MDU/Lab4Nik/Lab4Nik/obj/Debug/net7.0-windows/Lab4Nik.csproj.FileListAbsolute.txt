@@ -1,0 +1,16 @@
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab4Nik\Lab4Nik\obj\Debug\net7.0-windows\Lab4Nik.fMain.resources
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab4Nik\Lab4Nik\obj\Debug\net7.0-windows\Lab4Nik.csproj.GenerateResource.cache
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab4Nik\Lab4Nik\obj\Debug\net7.0-windows\Lab4Nik.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab4Nik\Lab4Nik\obj\Debug\net7.0-windows\Lab4Nik.AssemblyInfoInputs.cache
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab4Nik\Lab4Nik\obj\Debug\net7.0-windows\Lab4Nik.AssemblyInfo.cs
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab4Nik\Lab4Nik\obj\Debug\net7.0-windows\Lab4Nik.csproj.CoreCompileInputs.cache
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab4Nik\Lab4Nik\bin\Debug\net7.0-windows\Lab4Nik.exe
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab4Nik\Lab4Nik\bin\Debug\net7.0-windows\Lab4Nik.deps.json
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab4Nik\Lab4Nik\bin\Debug\net7.0-windows\Lab4Nik.runtimeconfig.json
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab4Nik\Lab4Nik\bin\Debug\net7.0-windows\Lab4Nik.dll
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab4Nik\Lab4Nik\bin\Debug\net7.0-windows\Lab4Nik.pdb
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab4Nik\Lab4Nik\obj\Debug\net7.0-windows\Lab4Nik.dll
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab4Nik\Lab4Nik\obj\Debug\net7.0-windows\refint\Lab4Nik.dll
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab4Nik\Lab4Nik\obj\Debug\net7.0-windows\Lab4Nik.pdb
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab4Nik\Lab4Nik\obj\Debug\net7.0-windows\Lab4Nik.genruntimeconfig.cache
+D:\Projects\Git\AndriiVasylenko-bit\learning-programming\MDU\Lab4Nik\Lab4Nik\obj\Debug\net7.0-windows\ref\Lab4Nik.dll

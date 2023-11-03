@@ -8,60 +8,61 @@ internal class Program
     {
         Console.OutputEncoding = Encoding.UTF8;
 
-        Bike[] arrBike;
-        Console.Write("Введiть кiлькiсть велосипедів: ");
-        int cntBike = int.Parse(Console.ReadLine());
-        arrBike = new Bike[cntBike];
+        Tablet[] arrTablet;
+        Console.Write("Введiть кiлькiсть палншетів: ");
+        int cntTablet = int.Parse(Console.ReadLine());
+        Console.WriteLine();
+        arrTablet = new Tablet[cntTablet];
 
-        for (int i = 0; i < cntBike; i++)
+        for (int i = 0; i < cntTablet; i++)
         {
-            Console.Write("Введiть назву велосипеда: ");
+            Console.Write("Введiть назву планшету: ");
             string name = Console.ReadLine();
-            Console.Write("Введiть вартість велосипеда: ");
+            Console.Write("Введiть вартість планшету: ");
             double cost = double.Parse(Console.ReadLine());
-            Console.Write("Введiть вартість розстрочки: ");
+            Console.Write("Введiть вартість розстрочк: ");
             double installment = double.Parse(Console.ReadLine());
-            Console.Write("Введiть діаметр коліс: ");
-            double diameterWheels = double.Parse(Console.ReadLine());
-            Console.Write("Введiть тип втулки: ");
-            string sleeveStyle = Console.ReadLine();
-            Console.Write("Введiть тип вилки: ");
-            string plugType = Console.ReadLine();
-            Console.Write("Введiть матеріал рами: ");
-            string materialFrame = Console.ReadLine();
-            Console.Write("Введiть тип гальмів: ");
-            string typeBrakes = Console.ReadLine();
+            Console.Write("Введiть розмір екрану: ");
+            double size = double.Parse(Console.ReadLine());
+            Console.Write("Введiть назву процесору: ");
+            string processor = Console.ReadLine();
+            Console.Write("Чи наявний FaceID (y-так, n-нi): ");
+            ConsoleKeyInfo faceID = Console.ReadKey();
+            Console.Write("\nВведiть параметри камери: ");
+            string camera = Console.ReadLine();
+            Console.Write("Введiть тип порту: ");
+            string connecteur = Console.ReadLine();
             Console.WriteLine();
 
-            Bike bike = new Bike();
-            bike._name = name;
-            bike._cost = cost;
-            bike._installment = installment;
-            bike._diameterWheels = diameterWheels;
-            bike._sleeveStyle = sleeveStyle;
-            bike._plugType = plugType;
-            bike._materialFrame = materialFrame;
-            bike._typeBrakes = typeBrakes;
+            Tablet tablet = new Tablet();
+            tablet._name = name;
+            tablet._cost = cost;
+            tablet._installment = installment;
+            tablet._size = size;
+            tablet._processor = processor;
+            tablet._faceID = faceID.Key == ConsoleKey.Y ? true : false;
+            tablet._сamera = camera;
+            tablet._connecteur = connecteur;
 
-            arrBike[i] = bike;
+            arrTablet[i] = tablet;
         }
 
-        foreach (Bike bike in arrBike)
+        foreach (Tablet tablet in arrTablet)
         {
-            Console.WriteLine("------------------------------------------------");
-            Console.WriteLine("Данi про об'єкт: ");
-            Console.WriteLine("------------------------------------------------");
-            Console.WriteLine("Назва: " + bike._name);
-            Console.WriteLine("Цінa: " + bike._cost.ToString("000.00 грн"));
-            Console.WriteLine("Розстрочка: " + bike._installment.ToString("000.00 грн"));
-            Console.WriteLine("Діаметр коліс: " +
-            bike._diameterWheels.ToString("00") + "\"");
-            Console.WriteLine("Тип втулки: " + bike._sleeveStyle);
-            Console.WriteLine("Тип вилки: " + bike._plugType.ToString());
-            Console.WriteLine("Матеріал рами:" + bike._materialFrame);
-            Console.WriteLine("Тип гальмів:" + bike._typeBrakes);
             Console.WriteLine();
-            Console.WriteLine("Кількість платежів: " + bike.numberPayments.ToString("0.00"));
+            Console.WriteLine("------------------------------------------------");
+            Console.WriteLine("Данi про об`ект: ");
+            Console.WriteLine("------------------------------------------------");
+            Console.WriteLine("Назва: " + tablet._name);
+            Console.WriteLine("Цінa: " + tablet._cost.ToString("000.00 грн"));
+            Console.WriteLine("Розстрочка: " + tablet._installment.ToString("000.00 грн"));
+            Console.WriteLine("Діагональ: " + tablet._size.ToString("00.0") + "\"");
+            Console.WriteLine("Процессор: " + tablet._processor);
+            Console.WriteLine("Камера: " + tablet._сamera);
+            Console.WriteLine("FaceID: " + (tablet._faceID ? "Присутнє" : "Відсутне"));
+            Console.WriteLine("Тип порту: " + tablet._connecteur);
+            Console.WriteLine();
+            Console.WriteLine("Кількість платжеів: " + tablet.numberPayments.ToString("0.00 міс."));
         }
 
         Console.ReadLine();

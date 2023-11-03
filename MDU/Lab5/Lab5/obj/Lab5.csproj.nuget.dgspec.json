@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\Git\\AndriiVasylenko-bit\\learning-c-sharp\\MDU\\Lab5\\Lab5\\Lab5.csproj": {}
+    "D:\\Projects\\Git\\AndriiVasylenko-bit\\learning-programming\\MDU\\Lab5\\Lab5\\Lab5.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\Git\\AndriiVasylenko-bit\\learning-c-sharp\\MDU\\Lab5\\Lab5\\Lab5.csproj": {
+    "D:\\Projects\\Git\\AndriiVasylenko-bit\\learning-programming\\MDU\\Lab5\\Lab5\\Lab5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\Git\\AndriiVasylenko-bit\\learning-c-sharp\\MDU\\Lab5\\Lab5\\Lab5.csproj",
+        "projectUniqueName": "D:\\Projects\\Git\\AndriiVasylenko-bit\\learning-programming\\MDU\\Lab5\\Lab5\\Lab5.csproj",
         "projectName": "Lab5",
-        "projectPath": "D:\\Projects\\Git\\AndriiVasylenko-bit\\learning-c-sharp\\MDU\\Lab5\\Lab5\\Lab5.csproj",
+        "projectPath": "D:\\Projects\\Git\\AndriiVasylenko-bit\\learning-programming\\MDU\\Lab5\\Lab5\\Lab5.csproj",
         "packagesPath": "C:\\Users\\livek\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\Git\\AndriiVasylenko-bit\\learning-c-sharp\\MDU\\Lab5\\Lab5\\obj\\",
+        "outputPath": "D:\\Projects\\Git\\AndriiVasylenko-bit\\learning-programming\\MDU\\Lab5\\Lab5\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

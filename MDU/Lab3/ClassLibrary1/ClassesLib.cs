@@ -1,27 +1,30 @@
 ﻿namespace ClassLibrary1
 {
-    public class Bike
+    public class Tablet
     {
         public string _name { get; set; }
         public double _cost { get; set; }
         public double _installment { get; set; }
-        public double _diameterWheels { get; set; }
-        public string _sleeveStyle { get; set; }
-        public string _plugType { get; set; }
-        public string _materialFrame { get; set; }
-        public string _typeBrakes { get; set; }
+        public double _size { get; set; }
+        public string _processor { get; set; }
+        public bool _faceID { get; set; }
+        public string _сamera { get; set; }
+        public string _connecteur { get; set; }
 
         public int numberPayments
         {
             get
             {
-                return GetNumberPayments();
+                return NumberPayments();
             }
         }
 
-        private int GetNumberPayments()
+        public int NumberPayments()
         {
-            return Convert.ToInt32(Math.Round(_cost / _installment));
+            if (_cost > 0 && _installment > 0 && _cost >= _installment)
+                return Convert.ToInt32(Math.Round(_cost / _installment));
+            else
+                return 0;
         }
     }
 }
