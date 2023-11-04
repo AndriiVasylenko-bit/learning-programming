@@ -38,11 +38,11 @@
             btnClear = new ToolStripButton();
             tsSeparator2 = new ToolStripSeparator();
             btnExit = new ToolStripButton();
-            bindSrcTowns = new BindingSource(components);
             gvTowns = new DataGridView();
+            bindSrcTablet = new BindingSource(components);
             toolStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)bindSrcTowns).BeginInit();
             ((System.ComponentModel.ISupportInitialize)gvTowns).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)bindSrcTablet).BeginInit();
             SuspendLayout();
             // 
             // toolStrip1
@@ -115,17 +115,13 @@
             btnExit.Text = "Вийти з програми";
             btnExit.Click += btnExit_Click;
             // 
-            // bindSrcTowns
-            // 
-            bindSrcTowns.CurrentChanged += bindSrcTowns_CurrentChanged;
-            // 
             // gvTowns
             // 
             gvTowns.AllowUserToAddRows = false;
             gvTowns.AllowUserToDeleteRows = false;
             gvTowns.AutoGenerateColumns = false;
             gvTowns.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            gvTowns.DataSource = bindSrcTowns;
+            gvTowns.DataSource = bindSrcTablet;
             gvTowns.Dock = DockStyle.Fill;
             gvTowns.Location = new Point(0, 27);
             gvTowns.Name = "gvTowns";
@@ -149,8 +145,8 @@
             Resize += fMain_Resize;
             toolStrip1.ResumeLayout(false);
             toolStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)bindSrcTowns).EndInit();
             ((System.ComponentModel.ISupportInitialize)gvTowns).EndInit();
+            ((System.ComponentModel.ISupportInitialize)bindSrcTablet).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -166,6 +162,6 @@
         private ToolStripSeparator tsSeparator2;
         private ToolStripButton btnExit;
         private DataGridView gvTowns;
-        public BindingSource bindSrcTowns;
+        public BindingSource bindSrcTablet;
     }
 }

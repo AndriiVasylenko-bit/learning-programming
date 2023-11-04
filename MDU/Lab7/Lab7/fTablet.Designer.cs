@@ -1,6 +1,6 @@
 ﻿namespace Lab7
 {
-    partial class fTown
+    partial class fTablet
     {
         /// <summary>
         /// Required designer variable.
@@ -29,11 +29,13 @@
         private void InitializeComponent()
         {
             groupBox1 = new GroupBox();
-            tbSquare = new TextBox();
-            tbYearIncome = new TextBox();
-            tbPopulation = new TextBox();
-            tbRegion = new TextBox();
-            tbCountry = new TextBox();
+            tbConnecteur = new TextBox();
+            label7 = new Label();
+            tbCamera = new TextBox();
+            tbProcessor = new TextBox();
+            tbSize = new TextBox();
+            tbInstallment = new TextBox();
+            tbCost = new TextBox();
             tbName = new TextBox();
             label6 = new Label();
             label5 = new Label();
@@ -42,8 +44,7 @@
             label2 = new Label();
             label1 = new Label();
             groupBox2 = new GroupBox();
-            chbHasAirport = new CheckBox();
-            chbHasPort = new CheckBox();
+            chbHasFaceID = new CheckBox();
             btnOk = new Button();
             btnCancel = new Button();
             groupBox1.SuspendLayout();
@@ -52,11 +53,13 @@
             // 
             // groupBox1
             // 
-            groupBox1.Controls.Add(tbSquare);
-            groupBox1.Controls.Add(tbYearIncome);
-            groupBox1.Controls.Add(tbPopulation);
-            groupBox1.Controls.Add(tbRegion);
-            groupBox1.Controls.Add(tbCountry);
+            groupBox1.Controls.Add(tbConnecteur);
+            groupBox1.Controls.Add(label7);
+            groupBox1.Controls.Add(tbCamera);
+            groupBox1.Controls.Add(tbProcessor);
+            groupBox1.Controls.Add(tbSize);
+            groupBox1.Controls.Add(tbInstallment);
+            groupBox1.Controls.Add(tbCost);
             groupBox1.Controls.Add(tbName);
             groupBox1.Controls.Add(label6);
             groupBox1.Controls.Add(label5);
@@ -66,45 +69,61 @@
             groupBox1.Controls.Add(label1);
             groupBox1.Location = new Point(12, 12);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(338, 225);
+            groupBox1.Size = new Size(338, 273);
             groupBox1.TabIndex = 0;
             groupBox1.TabStop = false;
-            groupBox1.Text = "Загальні дані";
+            groupBox1.Text = "Main";
             // 
-            // tbSquare
+            // tbConnecteur
             // 
-            tbSquare.Location = new Point(200, 188);
-            tbSquare.Name = "tbSquare";
-            tbSquare.Size = new Size(125, 27);
-            tbSquare.TabIndex = 11;
+            tbConnecteur.Location = new Point(200, 221);
+            tbConnecteur.Name = "tbConnecteur";
+            tbConnecteur.Size = new Size(125, 27);
+            tbConnecteur.TabIndex = 13;
             // 
-            // tbYearIncome
+            // label7
             // 
-            tbYearIncome.Location = new Point(200, 155);
-            tbYearIncome.Name = "tbYearIncome";
-            tbYearIncome.Size = new Size(125, 27);
-            tbYearIncome.TabIndex = 10;
+            label7.AutoSize = true;
+            label7.Location = new Point(18, 228);
+            label7.Name = "label7";
+            label7.Size = new Size(84, 20);
+            label7.TabIndex = 12;
+            label7.Text = "Connecteur";
             // 
-            // tbPopulation
+            // tbCamera
             // 
-            tbPopulation.Location = new Point(200, 122);
-            tbPopulation.Name = "tbPopulation";
-            tbPopulation.Size = new Size(125, 27);
-            tbPopulation.TabIndex = 9;
+            tbCamera.Location = new Point(200, 188);
+            tbCamera.Name = "tbCamera";
+            tbCamera.Size = new Size(125, 27);
+            tbCamera.TabIndex = 11;
             // 
-            // tbRegion
+            // tbProcessor
             // 
-            tbRegion.Location = new Point(200, 92);
-            tbRegion.Name = "tbRegion";
-            tbRegion.Size = new Size(125, 27);
-            tbRegion.TabIndex = 8;
+            tbProcessor.Location = new Point(200, 155);
+            tbProcessor.Name = "tbProcessor";
+            tbProcessor.Size = new Size(125, 27);
+            tbProcessor.TabIndex = 10;
             // 
-            // tbCountry
+            // tbSize
             // 
-            tbCountry.Location = new Point(200, 61);
-            tbCountry.Name = "tbCountry";
-            tbCountry.Size = new Size(125, 27);
-            tbCountry.TabIndex = 7;
+            tbSize.Location = new Point(200, 122);
+            tbSize.Name = "tbSize";
+            tbSize.Size = new Size(125, 27);
+            tbSize.TabIndex = 9;
+            // 
+            // tbInstallment
+            // 
+            tbInstallment.Location = new Point(200, 92);
+            tbInstallment.Name = "tbInstallment";
+            tbInstallment.Size = new Size(125, 27);
+            tbInstallment.TabIndex = 8;
+            // 
+            // tbCost
+            // 
+            tbCost.Location = new Point(200, 61);
+            tbCost.Name = "tbCost";
+            tbCost.Size = new Size(125, 27);
+            tbCost.TabIndex = 7;
             // 
             // tbName
             // 
@@ -118,85 +137,75 @@
             label6.AutoSize = true;
             label6.Location = new Point(18, 195);
             label6.Name = "label6";
-            label6.Size = new Size(104, 20);
+            label6.Size = new Size(60, 20);
             label6.TabIndex = 5;
-            label6.Text = "Полщя, кв. км";
+            label6.Text = "Camera";
             // 
             // label5
             // 
             label5.AutoSize = true;
             label5.Location = new Point(18, 162);
             label5.Name = "label5";
-            label5.Size = new Size(127, 20);
+            label5.Size = new Size(72, 20);
             label5.TabIndex = 4;
-            label5.Text = "Річний дохід, грн";
+            label5.Text = "Processor";
             // 
             // label4
             // 
             label4.AutoSize = true;
             label4.Location = new Point(18, 129);
             label4.Name = "label4";
-            label4.Size = new Size(150, 20);
+            label4.Size = new Size(36, 20);
             label4.TabIndex = 3;
-            label4.Text = "Кількість мешканців";
+            label4.Text = "Size";
+            label4.Click += label4_Click;
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.Location = new Point(18, 99);
             label3.Name = "label3";
-            label3.Size = new Size(53, 20);
+            label3.Size = new Size(82, 20);
             label3.TabIndex = 2;
-            label3.Text = "Регіон";
+            label3.Text = "Installment";
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Location = new Point(18, 68);
             label2.Name = "label2";
-            label2.Size = new Size(56, 20);
+            label2.Size = new Size(38, 20);
             label2.TabIndex = 1;
-            label2.Text = "Країна";
+            label2.Text = "Cost";
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Location = new Point(18, 35);
             label1.Name = "label1";
-            label1.Size = new Size(91, 20);
+            label1.Size = new Size(49, 20);
             label1.TabIndex = 0;
-            label1.Text = "Назва міста";
+            label1.Text = "Name";
             // 
             // groupBox2
             // 
-            groupBox2.Controls.Add(chbHasAirport);
-            groupBox2.Controls.Add(chbHasPort);
-            groupBox2.Location = new Point(12, 260);
+            groupBox2.Controls.Add(chbHasFaceID);
+            groupBox2.Location = new Point(12, 291);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(338, 102);
+            groupBox2.Size = new Size(338, 71);
             groupBox2.TabIndex = 1;
             groupBox2.TabStop = false;
-            groupBox2.Text = "Транспорт";
+            groupBox2.Text = "Secure";
             // 
-            // chbHasAirport
+            // chbHasFaceID
             // 
-            chbHasAirport.AutoSize = true;
-            chbHasAirport.Location = new Point(23, 61);
-            chbHasAirport.Name = "chbHasAirport";
-            chbHasAirport.Size = new Size(171, 24);
-            chbHasAirport.TabIndex = 1;
-            chbHasAirport.Text = "Місто має аеропорт";
-            chbHasAirport.UseVisualStyleBackColor = true;
-            // 
-            // chbHasPort
-            // 
-            chbHasPort.AutoSize = true;
-            chbHasPort.Location = new Point(23, 31);
-            chbHasPort.Name = "chbHasPort";
-            chbHasPort.Size = new Size(137, 24);
-            chbHasPort.TabIndex = 0;
-            chbHasPort.Text = "Місто має порт";
-            chbHasPort.UseVisualStyleBackColor = true;
+            chbHasFaceID.AutoSize = true;
+            chbHasFaceID.Location = new Point(23, 31);
+            chbHasFaceID.Name = "chbHasFaceID";
+            chbHasFaceID.Size = new Size(75, 24);
+            chbHasFaceID.TabIndex = 0;
+            chbHasFaceID.Text = "FaceID";
+            chbHasFaceID.UseVisualStyleBackColor = true;
             // 
             // btnOk
             // 
@@ -218,7 +227,7 @@
             btnCancel.UseVisualStyleBackColor = true;
             btnCancel.Click += btnCancel_Click;
             // 
-            // fTown
+            // fTbalet
             // 
             AcceptButton = btnOk;
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -230,11 +239,10 @@
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
             MaximizeBox = false;
-            Name = "fTown";
+            Name = "fTbalet";
             ShowInTaskbar = false;
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Дані про нове місто";
-            Load += fTown_Load;
+            Text = "Tablet data";
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             groupBox2.ResumeLayout(false);
@@ -251,16 +259,17 @@
         private Label label3;
         private Label label2;
         private Label label1;
-        private TextBox tbSquare;
-        private TextBox tbYearIncome;
-        private TextBox tbPopulation;
-        private TextBox tbRegion;
-        private TextBox tbCountry;
+        private TextBox tbCamera;
+        private TextBox tbProcessor;
+        private TextBox tbSize;
+        private TextBox tbInstallment;
+        private TextBox tbCost;
         private TextBox tbName;
         private GroupBox groupBox2;
-        private CheckBox chbHasAirport;
-        private CheckBox chbHasPort;
+        private CheckBox chbHasFaceID;
         private Button btnOk;
         private Button btnCancel;
+        private TextBox tbConnecteur;
+        private Label label7;
     }
 }

@@ -37,44 +37,45 @@ namespace Lab6
             for (int i = 0; i < valueRC; i++)
                 gv.Rows[i].HeaderCell.Value = (x1min + i * dx1).ToString("0.000");
             gv.RowHeadersWidth = 80;
-            gv.Rows[valueRC].HeaderCell.Value = "Avg";
+            gv.Rows[valueRC].HeaderCell.Value = "Sum";
             for (int i = 0; i < valueCC; i++)
             {
                 gv.Columns[i].HeaderCell.Value = (x2min + i *
                 dx2).ToString("0.000");
                 gv.Columns[i].Width = 60;
             }
-            gv.Columns[valueCC].HeaderCell.Value = "Avg";
+            gv.Columns[valueCC].HeaderCell.Value = "Sum";
             gv.Columns[valueCC].Width = 60;
             // Для автоматичного підлаштування розмірів стовпчиків та рядків
             // можна використовувати ці методи
             //gv.AutoResizeColumns();
             //gv.AutoResizeRows();
             int cl, rw;
-            double x1, x2, y, sumY = 0, AvgX = 0;
+            double x1, x2, y, sumY = 0, sum = 0, zero;
             // Розрахунок і вивід результатів
             for (x1 = x1min, rw = 0; x1 <= x1max; rw++, x1 += dx1)
             {
                 for (x2 = x2min, cl = 0; x2 <= x2max; cl++, x2 += dx2)
                 {
-                    y = Math.Cos(Math.Pow(x2, 1 / 2) + 34 * x1) - 4 * Math.Sin(x2);
-                    if (y < 0) sumY += Math.Pow(y, 2);
-                    gv.Rows[rw].Cells[cl].Value = y.ToString("0.000");
-                    AvgX += y;
+                    zero = Math.Pow((x1 + 53 * x2), 2) != 0 ? Math.Pow((x1 + 53 * x2), 2) : 1;
+                    y = Math.Pow(Math.Sin(x1 * (x2 / zero)), 2);
+                    if (y < 0) sumY += y;
+                    gv.Rows[rw].Cells[cl].Value = y.ToString();
+                    sum += y;
                 }
-                gv.Rows[rw].Cells[valueCC].Value = (AvgX / cl).ToString("0.000");
-                AvgX = 0;
+                gv.Rows[rw].Cells[valueCC].Value = sum.ToString();
+                sum = 0;
             }
-            tbSumY.Text = sumY.ToString("0.000");
+            tbSumY.Text = sumY.ToString();
 
             for (cl = 0; cl < valueCC; cl++)
             {
                 for (rw = 0; rw < valueRC; rw++)
                 {
-                    AvgX += double.Parse((string)gv.Rows[rw].Cells[cl].Value);
+                    sum += double.Parse((string)gv.Rows[rw].Cells[cl].Value);
                 }
-                gv.Rows[valueRC].Cells[cl].Value = (AvgX / valueRC).ToString("0.000");
-                AvgX = 0;
+                gv.Rows[valueRC].Cells[cl].Value = sum.ToString();
+                sum = 0;
             }
         }
 

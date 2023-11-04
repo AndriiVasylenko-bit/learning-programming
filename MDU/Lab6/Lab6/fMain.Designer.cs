@@ -189,7 +189,7 @@
             // 
             // tbSumY
             // 
-            tbSumY.Location = new Point(190, 428);
+            tbSumY.Location = new Point(111, 429);
             tbSumY.Name = "tbSumY";
             tbSumY.ReadOnly = true;
             tbSumY.Size = new Size(125, 27);
@@ -201,9 +201,9 @@
             label7.AutoSize = true;
             label7.Location = new Point(23, 431);
             label7.Name = "label7";
-            label7.Size = new Size(161, 25);
+            label7.Size = new Size(84, 25);
             label7.TabIndex = 17;
-            label7.Text = "Cума квадратів (y < 0)";
+            label7.Text = "Sum (y < 0)";
             label7.UseCompatibleTextRendering = true;
             label7.Click += label7_Click;
             // 

@@ -1,10 +1,4 @@
-﻿//using System.Windows.Forms;
-using NetTopologySuite.Utilities;
-using System.Drawing;
-using System.Windows.Forms;
-//using NetTopologySuite.Geometries;
-
-class CCircle
+﻿class CCircle
 { // Константи
     const int DefaultRadius = 50; // Радіус кола за замовчуванням, пікс
                                   // Поля
@@ -54,10 +48,14 @@ class CCircle
         2 * Radius, 2 * Radius);
         graphics.DrawEllipse(pen, rectangle);
 
-        Point A = new Point(X + Radius, Y);
-        Point B = new Point(X, Y + Radius);
-        Point C = new Point(X - Radius, Y);
-        Point D = new Point(X, Y - Radius);
+        // Малюемо квадрат повернутий на 45 градусів.
+        double dRadus = Radius;
+        double diam = dRadus * 1.415;
+        int idiam = Convert.ToInt32(diam);
+        Point A = new Point(X + idiam, Y);
+        Point B = new Point(X, Y + idiam);
+        Point C = new Point(X - idiam, Y);
+        Point D = new Point(X, Y - idiam);
         graphics.DrawLine(pen, A, B);
         graphics.DrawLine(pen, B, C);
         graphics.DrawLine(pen, C, D);
@@ -67,7 +65,7 @@ class CCircle
         for (int i = 0; i < 3; i++)
         {
             float angle = (float)(2 * Math.PI / 3 * i);
-            angle += (float)(Math.PI / 2);
+            angle -= (float)(Math.PI / 2);
             float trX = X + Radius * (float)Math.Cos(angle);
             float trY = Y + Radius * (float)Math.Sin(angle);
             trianglePoints[i] = new PointF(trX, trY);

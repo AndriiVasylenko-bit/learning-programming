@@ -1,4 +1,4 @@
-namespace Lab7
+п»їnamespace Lab7
 {
     public partial class fMain : Form
     {
@@ -12,41 +12,41 @@ namespace Lab7
             gvTowns.AutoGenerateColumns = false;
             DataGridViewColumn column = new DataGridViewTextBoxColumn();
             column.DataPropertyName = "Name";
-            column.Name = "Назва";
+            column.Name = "Name";
             gvTowns.Columns.Add(column);
             column = new DataGridViewTextBoxColumn();
-            column.DataPropertyName = "Country";
-            column.Name = "Країна";
+            column.DataPropertyName = "Cost";
+            column.Name = "Cost";
             gvTowns.Columns.Add(column);
             column = new DataGridViewTextBoxColumn();
-            column.DataPropertyName = "Region";
-            column.Name = "Регіон";
+            column.DataPropertyName = "Installment";
+            column.Name = "Installment";
             gvTowns.Columns.Add(column);
             column = new DataGridViewTextBoxColumn();
-            column.DataPropertyName = "Population";
-            column.Name = "Мешканців";
+            column.DataPropertyName = "Size";
+            column.Name = "Size";
             gvTowns.Columns.Add(column);
             column = new DataGridViewTextBoxColumn();
-            column.DataPropertyName = "YearIncome";
-            column.Name = "Річн. дохід";
+            column.DataPropertyName = "Processor";
+            column.Name = "Processor";
             gvTowns.Columns.Add(column);
-            column = new DataGridViewTextBoxColumn();
-            column.DataPropertyName = "Square";
-            column.Name = "Площа";
+            column = new DataGridViewCheckBoxColumn();
+            column.DataPropertyName = "FaceID";
+            column.Name = "FaceID";
             column.Width = 80;
             gvTowns.Columns.Add(column);
-            column = new DataGridViewCheckBoxColumn();
-            column.DataPropertyName = "HasPort";
-            column.Name = "Порт";
+            column = new DataGridViewTextBoxColumn();
+            column.DataPropertyName = "Camera";
+            column.Name = "Camera";
             column.Width = 60;
             gvTowns.Columns.Add(column);
-            column = new DataGridViewCheckBoxColumn();
-            column.DataPropertyName = "HasAirport";
-            column.Name = "Аеропорт";
+            column = new DataGridViewTextBoxColumn();
+            column.DataPropertyName = "Connecteur";
+            column.Name = "Connecteur";
             column.Width = 60;
             gvTowns.Columns.Add(column);
-            bindSrcTowns.Add(new Town("Львів", "Україна", "Львівська обл.", 800000,
-            2000000, 400, false, true));
+            bindSrcTablet.Add(new Tablet("iPad mini", 18058, 3400, 8.3,
+            "A15 Bionic chip", false, "12MP Wide camera", "USBвЂ‘C connector"));
 
 
             EventArgs args = new EventArgs();
@@ -66,48 +66,48 @@ namespace Lab7
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            Town town = new Town();
-            fTown ft = new fTown(ref town);
+            Tablet tablet = new Tablet();
+            fTablet ft = new fTablet(ref tablet);
             if (ft.ShowDialog() == DialogResult.OK)
             {
-                bindSrcTowns.Add(town);
+                bindSrcTablet.Add(tablet);
             }
         }
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
-            Town town = (Town)bindSrcTowns.List[bindSrcTowns.Position];
-            fTown ft = new fTown(ref town);
+            Tablet tablet = (Tablet)bindSrcTablet.List[bindSrcTablet.Position];
+            fTablet ft = new fTablet(ref tablet);
             if (ft.ShowDialog() == DialogResult.OK)
             {
-                bindSrcTowns.List[bindSrcTowns.Position] = town;
+                bindSrcTablet.List[bindSrcTablet.Position] = tablet;
             }
         }
 
         private void btnDel_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Видалити поточний запис?",
-                "Видалення запису", MessageBoxButtons.OKCancel,
+            if (MessageBox.Show("Р’РёРґР°Р»РёС‚Рё РїРѕС‚РѕС‡РЅРёР№ Р·Р°РїРёСЃ?",
+                "Р’РёРґР°Р»РµРЅРЅСЏ Р·Р°РїРёСЃСѓ", MessageBoxButtons.OKCancel,
                 MessageBoxIcon.Warning) == DialogResult.OK)
             {
-                bindSrcTowns.RemoveCurrent();
+                bindSrcTablet.RemoveCurrent();
             }
         }
 
         private void btnClear_Click(object sender, EventArgs e)
         {
             if (MessageBox.Show(
-                "Очистити таблицю?\n\nВсі дані будуть втрачені",
-                "Очищення даних", MessageBoxButtons.OKCancel,
+                "РћС‡РёСЃС‚РёС‚Рё С‚Р°Р±Р»РёС†СЋ?\n\nР’СЃС– РґР°РЅС– Р±СѓРґСѓС‚СЊ РІС‚СЂР°С‡РµРЅС–",
+                "РћС‡РёС‰РµРЅРЅСЏ РґР°РЅРёС…", MessageBoxButtons.OKCancel,
                 MessageBoxIcon.Question) == DialogResult.OK)
             {
-                bindSrcTowns.Clear();
+                bindSrcTablet.Clear();
             }
         }
 
         private void btnExit_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Закрити застосунок?", "Вихід з програми",
+            if (MessageBox.Show("Р—Р°РєСЂРёС‚Рё Р·Р°СЃС‚РѕСЃСѓРЅРѕРє?", "Р’РёС…С–Рґ Р· РїСЂРѕРіСЂР°РјРё",
                 MessageBoxButtons.OKCancel,
                 MessageBoxIcon.Question) == DialogResult.OK)
             {
