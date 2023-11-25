@@ -9,69 +9,205 @@
     Width="350"
     Height="450"
     mc:Ignorable="d">
+    <Window.Background>
+        <SolidColorBrush Color="#cce0ff" />
+    </Window.Background>
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="2" />
+            <Setter Property="Background" Value="#80bfff" />
+        </Style>
+        <Style x:Key="OperatorButton" TargetType="Button">
+            <Setter Property="Background" Value="#19334d" />
+            <Setter Property="Margin" Value="2" />
+            <Setter Property="Foreground" Value="White" />
+        </Style>
+    </Window.Resources>
+
     <Grid Margin="10">
         <Grid.RowDefinitions>
             <!--  There ara for the number  -->
             <RowDefinition Height="100" />
             <!--  There ara for the number  -->
-            <RowDefinition Height="70" />
-            <RowDefinition Height="70" />
-            <RowDefinition Height="70" />
-            <RowDefinition Height="70" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="82.5" />
-            <ColumnDefinition Width="82.5" />
-            <ColumnDefinition Width="82.5" />
-            <ColumnDefinition Width="82.5" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
+
+        <Border
+            Grid.Column="0"
+            Grid.ColumnSpan="5"
+            Background="#e6f2ff"
+            BorderBrush="#001a33"
+            BorderThickness="1"
+            CornerRadius="5" />
+
+        <TextBlock
+            Name="OutputTextBlock"
+            Grid.ColumnSpan="4"
+            Margin="5,0"
+            VerticalAlignment="Bottom"
+            FontSize="45"
+            TextAlignment="Right" />
+
         <Button
             x:Name="Seven"
-            Grid.Row="1"
-            Background="#FFDDDDDD"
-            Click="SevetBtn_Click"
+            Grid.Row="2"
+            Click="NumBtn_Click"
             Content="7"
             FontSize="25"
-            FontWeight="Bold"
-            OpacityMask="Black"
-            RenderTransformOrigin="0.5,0.5"
-            UseLayoutRounding="False" />
+            FontWeight="Bold" />
         <Button
             x:Name="Eight"
-            Grid.Row="1"
+            Grid.Row="2"
             Grid.Column="1"
-            Background="#FFDDDDDD"
-            Click="EightBtn_Click"
+            Click="NumBtn_Click"
             Content="8"
             FontSize="25"
-            FontWeight="Bold"
-            OpacityMask="Black"
-            RenderTransformOrigin="0.5,0.5"
-            UseLayoutRounding="False" />
+            FontWeight="Bold" />
         <Button
             x:Name="Nine"
-            Grid.Row="1"
+            Grid.Row="2"
             Grid.Column="2"
-            Background="#FFDDDDDD"
-            Click="NineBtn_Click"
+            Click="NumBtn_Click"
             Content="9"
             FontSize="25"
-            FontWeight="Bold"
-            OpacityMask="Black"
-            RenderTransformOrigin="0.5,0.5"
-            UseLayoutRounding="False" />
+            FontWeight="Bold" />
         <Button
             x:Name="Four"
-            Grid.Row="2"
+            Grid.Row="3"
             Grid.Column="0"
-            Background="#FFDDDDDD"
-            Click="FourBtn_Click"
+            Click="NumBtn_Click"
             Content="4"
             FontSize="25"
+            FontWeight="Bold" />
+        <Button
+            x:Name="Five"
+            Grid.Row="3"
+            Grid.Column="1"
+            Click="NumBtn_Click"
+            Content="5"
+            FontSize="25"
+            FontWeight="Bold" />
+        <Button
+            x:Name="Six"
+            Grid.Row="3"
+            Grid.Column="2"
+            Click="NumBtn_Click"
+            Content="6"
+            FontSize="25"
+            FontWeight="Bold" />
+        <Button
+            x:Name="Three"
+            Grid.Row="4"
+            Grid.Column="2"
+            Click="NumBtn_Click"
+            Content="3"
+            FontSize="25"
+            FontWeight="Bold" />
+        <Button
+            x:Name="Two"
+            Grid.Row="4"
+            Grid.Column="1"
+            Click="NumBtn_Click"
+            Content="2"
+            FontSize="25"
+            FontWeight="Bold" />
+        <Button
+            x:Name="One"
+            Grid.Row="4"
+            Grid.Column="0"
+            Click="NumBtn_Click"
+            Content="1"
+            FontSize="25"
+            FontWeight="Bold" />
+        <Button
+            x:Name="Zero"
+            Grid.Row="5"
+            Grid.Column="1"
+            Click="NumBtn_Click"
+            Content="0"
+            FontSize="25"
+            FontWeight="Bold" />
+        <Button
+            x:Name="Divide"
+            Grid.Row="1"
+            Grid.Column="3"
+            Click="DivideBtn_Click"
+            Content=""
+            FontSize="25"
             FontWeight="Bold"
-            OpacityMask="Black"
-            RenderTransformOrigin="0.5,0.5"
-            UseLayoutRounding="False" />
+            Style="{StaticResource OperatorButton}" />
+        <Button
+            x:Name="Times"
+            Grid.Row="2"
+            Grid.Column="3"
+            Click="TimesBtn_Click"
+            Content="x"
+            FontSize="25"
+            FontWeight="Bold"
+            Style="{StaticResource OperatorButton}" />
+        <Button
+            x:Name="Minus"
+            Grid.Row="3"
+            Grid.Column="3"
+            Click="MinusBtn_Click"
+            Content="-"
+            FontSize="25"
+            FontWeight="Bold"
+            Style="{StaticResource OperatorButton}" />
+        <Button
+            x:Name="Plus"
+            Grid.Row="4"
+            Grid.Column="3"
+            Click="PlusBtn_Click"
+            Content="+"
+            FontSize="25"
+            FontWeight="Bold"
+            Style="{StaticResource OperatorButton}" />
+        <Button
+            x:Name="Equals"
+            Grid.Row="5"
+            Grid.Column="3"
+            Click="EqualsBtn_Click"
+            Content="="
+            FontSize="25"
+            FontWeight="Bold"
+            Style="{StaticResource OperatorButton}" />
+        <Button
+            x:Name="Clear"
+            Grid.Row="1"
+            Grid.Column="2"
+            Click="ClearBtn_Click"
+            Content="C"
+            FontSize="25"
+            FontWeight="Bold"
+            Style="{StaticResource OperatorButton}" />
+        <Button
+            x:Name="Square"
+            Grid.Row="1"
+            Grid.Column="0"
+            Click="SquareBtn_Click"
+            Content=""
+            FontSize="25"
+            FontWeight="Bold"
+            Style="{StaticResource OperatorButton}" />
+        <Button
+            x:Name="Sqrt"
+            Grid.Row="1"
+            Grid.Column="1"
+            Click="SqrtBtn_Click"
+            Content=""
+            FontSize="25"
+            FontWeight="Bold"
+            Style="{StaticResource OperatorButton}" />
     </Grid>
 </Window>
