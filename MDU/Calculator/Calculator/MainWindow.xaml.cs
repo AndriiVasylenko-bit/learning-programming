@@ -89,6 +89,14 @@ namespace Calculator
                     output += "9";
                     OutputTextBlock.Text = output;
                     break;
+
+                case "DecimalBtn":
+                    if (!output.Contains("."))
+                    {
+                        output += ".";
+                        OutputTextBlock.Text = output;
+                    }
+                    break;
             }
         }
 
@@ -183,7 +191,17 @@ namespace Calculator
                 output = Math.Sqrt(sqrt).ToString();
                 OutputTextBlock.Text = output;
             }
+        }
 
+        private void DeleteBtn_Click(object sender, RoutedEventArgs e)
+        {
+                operation = "";
+            if (output != "")
+            {
+                char[] arr = output.ToCharArray(0, output.Length - 1);
+                output = String.Concat<char>(arr);
+                OutputTextBlock.Text = output;
+            }
         }
     }
 }
